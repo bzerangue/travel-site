@@ -1356,6 +1356,16 @@ a {
 .primary-nav a {
             padding: 12px 0;
             font-size: 1rem;
-            background-color: rgba(47,85,114, transparent)
+            background-color: rgba(47,85,114, 0)
     }
+    }
+
+.reveal-item {
+    opacity: 0;
+    -webkit-transition: opacity 1.5s ease-out;
+    transition: opacity 1.5s ease-out;
+}
+
+.reveal-item--is-visible {
+        opacity: 1;
     }
